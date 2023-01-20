@@ -1,0 +1,160 @@
+
+
+.card{
+  background-color: rgba(255, 254, 254, 0.87);
+  padding: 30px;
+  box-sizing: border-box;
+  box-sizing: 0 0 10px 0 #eee;
+  border: 1px solid #e0dede ;
+  border-radius: 6px;
+  min-width: 26vh;
+  min-height: 20vh;
+  margin: 10px;
+  box-shadow: 5px 7px 3px rgba(236, 235, 235, 0.719);
+  
+} 
+
+
+.App{
+  text-align: center;
+  min-height: 170vh;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  background-color: white ;
+}
+
+.App h2{
+  padding: 30px;
+}
+
+.graph{
+  width: 65%;
+  display: inline-block;
+  margin-bottom: 60px;
+  
+}
+
+.c{
+  border-bottom: 7px solid rgba(224,125,0,1);}
+.b{
+  border-bottom: 7px solid rgba(225,225,0,1);
+}
+.a{
+  border-bottom: 7px solid rgba(0, 228, 0, 1);
+}
+.d{
+  border-bottom: 7px solid rgb(245, 91, 91)
+}
+.e{
+  border-bottom: 7px solid rgba(117, 170, 250, 0.808);
+}
+.f{
+  border-bottom: 7px solid rgba(155,23,76,1);
+}
+.header {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  margin-left: 1000px;
+  margin-right: 130px;
+  margin-top: 30px;
+}
+
+.header li a{
+  color: rgb(218, 142, 107);
+  text-decoration: none;
+}
+
+.home{
+  text-align: center;
+  min-height: 170vh;
+  background-color: white;
+  margin-left: 130px;
+  margin-right: 130px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.link:hover{
+  box-shadow: inset 0 -1px rgb(121, 41, 2);
+}
+
+.head-text{
+  position: relative;
+}
+
+.text-on-img{
+  position: absolute;
+  right: 80px;
+  left : 530px;
+  bottom: 140px;
+  text-align: left;
+  font-size: xxx-large;
+  color : white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.text-on-img p{
+  font-size :60%;
+  font-weight: 90;
+
+}
+
+.lewlew{
+  background-color: rgba(146, 182, 235, 0.808);
+  min-height: 300px;
+  position: relative;
+  border : 0;
+  display: block;
+}
+
+.lewlew-inner{
+  position: absolute;
+  right: 400px;
+  left : 400px;
+  bottom: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  text-align: center;
+}
+
+.lewlew h2{
+  margin-top: 0px;
+}
+
+.title{
+  font-size: xxx-large; 
+}
+
+.lewlew-inner2{
+  line-height: 5px;
+  margin-top: 0;
+}
+
+.link2{
+  text-decoration: none;
+}
+
+.link2:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.link2:active{
+  color: rgba(52,115,166,1);
+}
+
+.CuaConCho{
+  line-height: 5px;
+  margin-top: 0;
+  color: white;
+  text-align: middle;
+}
+.lewlew2{
+  background-color: rgba(146, 182, 235, 0.808);
+  position: relative;
+  min-height: 150px;
+  text-align: center;
+  
+}

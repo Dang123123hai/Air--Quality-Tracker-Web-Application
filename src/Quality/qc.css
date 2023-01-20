@@ -1,0 +1,132 @@
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 0px ;
+    margin-bottom: 5px;
+  }
+
+  .one {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #252e48;
+  }
+  
+  .quality__cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    min-height: 70vh;
+    background-color: white;
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .quality__cards__wrapper {
+    position: relative;
+    display: flex;
+    margin: 30px 0 45px;
+  }
+  
+  .quality__cards__items {
+    margin-bottom: 26px;
+    align-items: center;
+  }
+  
+  .quality__cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 2rem;
+    border-radius: 10px;
+  }
+  
+  .quality__cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(241, 102, 155, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(214, 69, 105, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 56, 89, 0.017));
+    border-radius: 3px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .quality__cards__item__pic-wrap {
+    position: relative;
+    width: 65%;
+    padding-top: 76%;
+    overflow: visible;
+  }
+  
+  .quality__fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  
+  
+  .quality__cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+  
+  .quality__cards__item__img:hover {
+    transform: scale(1.1);
+  
+  }
+  
+  .quality__cards__item__info {
+    padding: 10px 30px 10px;
+  }
+  
+  .quality__cards__item__text {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #252e48;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .quality__cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 3000px) {
+    .quality__cards__item {
+      margin-bottom: 20px;
+    }
+  }
+  
