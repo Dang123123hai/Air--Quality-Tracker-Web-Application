@@ -1,4 +1,3 @@
-import { Card } from '@material-ui/core';
 import React from 'react';
 import Cards from './Cards/Cards';
 import About from './About/About';
