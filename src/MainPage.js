@@ -19,7 +19,7 @@ const MainPage = () => {
                         <Route path ="/Home" component={HomePage}/>
                     </Switch>
                 </div>
-            <p className = 'footer'>©Created by Dang Luong</p>
+            <p className = 'footer'>©Createdby Dang Luong</p>
             </div>
         </BrowserRouter>
     )
