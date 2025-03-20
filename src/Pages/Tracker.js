@@ -30,10 +30,10 @@ const Tracker = () => {
 
 
   const token = '081f767a7eb83c5dc06d9c54004095e6e206c257'
-  const imageLink = `http://openweathermap.org/img/wn/${image}@2x.png`
+  const imageLink = `https://openweathermap.org/img/wn/${image}@2x.png`
 
   useEffect(() => {
-    axios.get(`http://api.airvisual.com/v2/countries?key=${key}`)
+    axios.get(`https://api.airvisual.com/v2/countries?key=${key}`)
       .then(res => {
         console.log(res)
         if (res.status === 200) {
@@ -48,7 +48,7 @@ const Tracker = () => {
 
   const countryHandler = (e) => {
     setCountry(e.target.value)
-    axios.get(`http://api.airvisual.com/v2/states?country=${e.target.value}&key=${key}`)
+    axios.get(`https://api.airvisual.com/v2/states?country=${e.target.value}&key=${key}`)
       .then(res => {
         console.log(res)
         setStateFind(res.data.data)
@@ -61,7 +61,7 @@ const Tracker = () => {
 
   const stateHandler = (e) => {
     setState(e.target.value)
-    axios.get(`http://api.airvisual.com/v2/cities?state=${e.target.value}&country=${country_}&key=${key}`)
+    axios.get(`https://api.airvisual.com/v2/cities?state=${e.target.value}&country=${country_}&key=${key}`)
       .then(res => {
         console.log(res)
         setCityFind(res.data.data)
@@ -74,7 +74,7 @@ const Tracker = () => {
 
   const cityHandler = (e) => {
     setCity(e.target.value)
-    axios.get(`http://api.airvisual.com/v2/city?city=${e.target.value}&state=${state_}&country=${country_}&key=${key}`)
+    axios.get(`https://api.airvisual.com/v2/city?city=${e.target.value}&state=${state_}&country=${country_}&key=${key}`)
       .then(res => {
         console.log(res)
         setTemprature(res.data.data.current.weather.tp)
