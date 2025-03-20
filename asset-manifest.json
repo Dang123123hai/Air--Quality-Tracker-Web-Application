@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Air--Quality-Tracker-Web-Application/static/css/main.a7e31d0a.chunk.css",
-    "main.js": "/Air--Quality-Tracker-Web-Application/static/js/main.77ad9050.chunk.js",
-    "main.js.map": "/Air--Quality-Tracker-Web-Application/static/js/main.77ad9050.chunk.js.map",
+    "main.js": "/Air--Quality-Tracker-Web-Application/static/js/main.b5b61425.chunk.js",
+    "main.js.map": "/Air--Quality-Tracker-Web-Application/static/js/main.b5b61425.chunk.js.map",
     "runtime-main.js": "/Air--Quality-Tracker-Web-Application/static/js/runtime-main.991db954.js",
     "runtime-main.js.map": "/Air--Quality-Tracker-Web-Application/static/js/runtime-main.991db954.js.map",
     "static/js/2.6362fdd7.chunk.js": "/Air--Quality-Tracker-Web-Application/static/js/2.6362fdd7.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.991db954.js",
     "static/js/2.6362fdd7.chunk.js",
     "static/css/main.a7e31d0a.chunk.css",
-    "static/js/main.77ad9050.chunk.js"
+    "static/js/main.b5b61425.chunk.js"
   ]
 }
