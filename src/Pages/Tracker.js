@@ -22,7 +22,7 @@ const Tracker = () => {
   const [cityFind, setCityFind] = useState([])
   const [day, setDay] = useState([])
   const [airPollution, setAirPollution] = useState([])
-  const [key, setKey] = useState('8499022c-9857-4f20-aae6-6d66342554ad')
+  const [key, setKey] = useState('4e842aff-9ecb-465f-8e78-01712b4e4eb7')
   const [keyFlex, setKeyFlex] = useState('8499022c-9857-4f20-aae6-6d66342554ad')
   const [graphError, setGraphError] = useState(false)
   const [flag, setFlag] = useState(false)
